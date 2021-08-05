@@ -11,7 +11,8 @@ bot = Client(
 
 @bot.on_message(filters.command(['start']))
 def start(Client, messages):
-  messages.reply(f"hello hi How are You",
+  send_photo="https://telegra.ph/file/9a237eaeed7580baca00d.jpg",
+  caption="hi",
   reply_markup = InlineKeyboardMarkup( # button
       [
          [

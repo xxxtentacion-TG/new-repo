@@ -11,7 +11,7 @@ bot = Client(
 
 @bot.on_message(filters.command(['start']))
 def start(Client, messages):
-  messages.reply(f"hello {message.from_user.first_name} How are You",
+  messages.reply(f"hello hi How are You",
   reply_markup = InlineKeyboardMarkup( # button
       [
          [

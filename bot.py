@@ -23,6 +23,5 @@ def start(Client, messages):
          ]
       ]
       )
-     
-     
+          
 bot.run()

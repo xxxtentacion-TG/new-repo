@@ -11,7 +11,7 @@ bot = Client(
 
 @bot.on_message(filters.command(['start']))
 def start(Client, messages):
-  client.send_photo/bot.send_photo("https://telegra.ph/file/9a237eaeed7580baca00d.jpg",
+  await message.reply_photo(photo="https://telegra.ph/file/9a237eaeed7580baca00d.jpg",
   reply_markup = InlineKeyboardMarkup( # button
       [
          [
@@ -23,6 +23,6 @@ def start(Client, messages):
          ]
       ]
       )
-     )
+     
      
 bot.run()
